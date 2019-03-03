@@ -6,6 +6,8 @@ from autocorrect import spell
 #from textblob import TextBlob
 #from nltk.stem.porter import stem
 
+#IamTryingGit
+
 def spCheck(w,neww):
     print("Do you want to replace "+w+" with "+neww+" ?")
     ans = input()
