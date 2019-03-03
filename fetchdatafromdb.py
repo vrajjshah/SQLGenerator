@@ -11,7 +11,7 @@ connection = sqlite3.connect("student.db")
 crsr = connection.cursor()
 
 # execute the command to fetch all the data from the table emp
-crsr.execute("SELECT studid FROM stud WHERE city=\"VADODARA\"")
+crsr.execute("SELECT address FROM stud WHERE studnm LIKE '%RAJESH%'")
 
 # store all the fetched data in the ans variable
 ans= crsr.fetchall()
